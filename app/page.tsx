@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
 export default function Home() { 
+  console.log(propws);
+  
   const [name,setname] =useState('Muhammad')
  const namefun =( ) => {
   setname('Muhammad Faheem')
@@ -17,7 +19,8 @@ export default function Home() {
      <h3>PIAIC student</h3>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatem iste ab dolorem, quo ullam eum perspiciatis cum ipsa quos animi eius, delectus neque expedita fugit ducimus soluta. Labore dolor velit quisquam eaque laborum non cum dolorum repellat adipisci deserunt! Hic rerum possimus voluptates ullam nostrum, obcaecati corrupti. Vero, nulla.</p>
      <h1>My Name is {name}</h1>
-     <button onClick={namefun}> Full Name</button>
+     <button onClick={namefun}>Get Full Name</button>
+     
 
      
 

@@ -7,7 +7,7 @@ export default function Home() {
 
  
   
-  const [name,setname] =useState('Muhammad ')
+  const [name,setname] =useState('----------------')
  const namefun =( ) => {
  
   setname("Faheem Saif")

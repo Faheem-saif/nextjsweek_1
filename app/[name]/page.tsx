@@ -3,9 +3,9 @@ import { log } from 'console'
 import Image from 'next/image'
 
 
-export default function Home(props:any) { 
+export default function Home() { 
 
-  console.log(props);
+
   
   let params:{name:""}
 

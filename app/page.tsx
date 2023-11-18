@@ -9,13 +9,13 @@ export default function Home() {
   
   const [name,setname] =useState('Muhammad ')
  const namefun =( ) => {
-  alert("Enter Your Name")
+ 
   setname("Faheem Saif")
  }
 
-const [value,setvalue]= useState('attractive')
+const [value,setvalue]= useState('Start')
 const namefunn=() =>{
-  setvalue("great")
+  setvalue("End")
 }
 
   return (
@@ -47,7 +47,7 @@ const namefunn=() =>{
      <h1>Here The Value Output is {value}</h1>
      <button onClick={namefun}>Get Full Name</button>
      <button onClick={namefunn}>Get Full value</button>
-     <button onClick={namefunn}>Get Full value</button>
+
      
 
      
